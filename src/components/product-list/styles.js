@@ -11,7 +11,7 @@ export const Container = styled.ul`
     list-style: none;
     color: white;
     font-size: 30px;
-    width: 15vw;
+    width: 20vw;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1vh;
