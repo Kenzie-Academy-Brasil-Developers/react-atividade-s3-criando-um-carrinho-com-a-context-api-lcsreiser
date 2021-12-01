@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #870000, #190a05);
+  /* background-image: url("https://1.bp.blogspot.com/-AFE24Gn6t9o/YQ3aO4fa7SI/AAAAAAABE-E/8e2RlzvZuesHg-H7CaYfKNFyI9PBBC_DgCLcBGAsYHQ/w400-h225/Papel%2Bde%2BParede%2Bpara%2BCelular%2BPato%2BPreto.jpg"); */
+}
