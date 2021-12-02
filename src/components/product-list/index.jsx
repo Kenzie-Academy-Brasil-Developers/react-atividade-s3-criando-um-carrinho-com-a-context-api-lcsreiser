@@ -5,14 +5,14 @@ import { useContext } from "react";
 import { CatalogueContext } from "../../providers/catalogue";
 import { CartContext } from "../../providers/cart";
 
-import { Container } from "./styles";
+import "./styles.css";
 
 const ProductList = ({ type }) => {
   const { catalogue } = useContext(CatalogueContext);
   const { cart } = useContext(CartContext);
 
   return (
-    <Container>
+    <ul>
       {type === "catalogue" &&
         catalogue.map((item, index) => (
           <li key={index}>
@@ -26,7 +26,7 @@ const ProductList = ({ type }) => {
             {item.name} <Button type={type} item={item} />
           </li>
         ))}
-    </Container>
+    </ul>
   );
 };
 
